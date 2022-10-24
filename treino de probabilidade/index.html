@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Probabilidade & Pokemon</title>
+	
+	<meta charset="UTF-8">
+	<script src="script.js" defer></script>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		div {
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 15vh;
+			width: 70%;
+			height: 70vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+			font-family: monospace;
+		}
+		img {
+			margin: 10px;
+			width: 10vh;
+		}
+		button {
+			margin: 10px;
+			width: 10vh;
+			height: 4vh;
+			border: none;
+			border-radius: 5px;
+			color: white;
+			background-color: tomato;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Qual será esse pokemon?</h1>
+		<img class="pokeboll" src="img/pokebola.png" onclick="pokemon()">
+		<p class="name"></p>
+		<button class="resetar" onclick="resetar()">Reset</button>
+	</div>
+</body>
+</html>
